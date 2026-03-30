@@ -41,3 +41,5 @@ if __name__ == '__main__':
     sentence = "The river bank was flooded after the storm."
     tokens, attentions = get_attention(sentence)
     plot_head(tokens, attentions, layer=5, head=0)
+
+#red means more attention weight
