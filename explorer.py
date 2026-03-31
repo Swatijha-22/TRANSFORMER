@@ -16,7 +16,7 @@ class AttentionExplorer:
         self.fig, self.ax = plt.subplots(figsize=(8, 7))
         self.fig.canvas.mpl_connect('key_press_event', self.on_key)
         self.draw()
-        # plt.show() commented out for headless environments
+        plt.show()# commented out for headless environments
         # Uncomment on systems with display server
 
     def draw(self):
